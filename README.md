@@ -2,8 +2,10 @@
  my server scripts
 
 
-# DIRECTORY TREE
-project_server-setup/
+### DIRECTORY TREE
+project_server-setup
+```
+server-scripts/
 │
 |—— config/        # Configuration Templtes, Account Secrets, and related resources.
 │   ├── secrets.sh
@@ -36,3 +38,4 @@ project_server-setup/
     ├── checks.sh
     ├── error_handling.sh
     └── env_vars.sh
+```
