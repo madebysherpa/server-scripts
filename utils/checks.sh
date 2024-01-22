@@ -11,7 +11,7 @@
 # For apps where its command in the PATH is critical (like 1Password), 
 # use the combined check with its `dpkg packageName`` and `command` like this:
 # 
-# | source /utils/checks.sh
+# | source ../utils/checks.sh
 # | 
 # | if checkPackageAndCommand "1password-cli" "op"; then
 # |     # ... Installation commands for 1Password ...
@@ -22,7 +22,7 @@
 # For apps where the PATH isn't necessary to check (like ufw),
 # use the shorter check like this:
 # 
-# | source /utils/checks.sh
+# | source ../utils/checks.sh
 # | 
 # | if checkPackageInstalled "ufw"; then
 # |     # ... Installation commands for UFW ...

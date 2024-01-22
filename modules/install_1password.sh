@@ -2,7 +2,7 @@
 # ## INSTALL 1PASSWORD-CLI
 
 # Source the checks script
-source /utils/checks.sh
+source ../utils/checks.sh
 
 # Define package and command names
 packageName="1password-cli"

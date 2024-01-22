@@ -2,7 +2,7 @@
 # ## INSTALL SUDO
 
 # Source the checks script
-source /utils/checks.sh
+source ../utils/checks.sh
 
 # Define package and, if needed, uncomment the command name
 packageName="sudo"
